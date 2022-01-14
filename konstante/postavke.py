@@ -1,0 +1,20 @@
+BROJ_ITERACIJA = 5
+MANJI_BROJ_GRADOVA = list(range(4, 11))
+VECI_BROJ_GRADOVA = list(range(11, 92, 10))
+
+##### Odabir vjerojatnosti mutiranja i križanja #####
+VARIJACIJA_VJV_MUTACIJE = [i / 10 for i in range(11)]
+VARIJACIJA_VJV_KRIZANJA = [i / 10 for i in range(11)]
+KONSTANTAN_BROJ_GRADOVA = 15
+KONSTANTAN_BROJ_JEDINKI = 1000
+
+#### Odabir broja jedinki (veličine populacije) ####
+VARIJACIJA_BROJA_JEDINKI = list(range(100, 10500, 500))
+VJEROJATNOSTI_MUTACIJE_0 = 0
+VJEROJATNOSIT_KRIZANJA_0 = 0
+
+#### Parametri GA
+VJEROJATNOSTI_MUTACIJE = 0.1
+VJEROJATNOSIT_KRIZANJA = 0.2
+MANJI_BROJ_JEDINKI = 100
+VECI_BROJ_JEDINKI = [1000, 3000, 5000]
